@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BudgetHotelsDot.com - Global Travel Solutions</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="nav-container">
+            <div class="logo">BudgetHotelDot.com</div>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#hotels">Hotels</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="service-tabs">
+        <div class="tab-container">
+            <div class="service-tab active">Rail Ticketing</div>
+            <div class="service-tab">Air Ticketing</div>
+            <div class="service-tab">Bus Ticketing</div>
+            <div class="service-tab">Passport & Visa</div>
+            <div class="service-tab">Customized Tour</div>
+            <div class="service-tab">Travel Insurance</div>
+            <div class="service-tab">Group Flight Ticket</div>
+            <div class="service-tab">Cruise</div>
+            <div class="service-tab">Island hopping</div>
+            <div class="service-tab">Europe Connection</div>
+            <div class="service-tab">Group Tour</div>
+            <div class="service-tab">Home stay</div>
+        </div>
+    </div>
+
+    <section class="search-section">
+        <div class="search-container">
+            <form action="https://www.budgethotelsdot.com/search" method="GET">
+                <div class="search-row">
+                    <div class="form-group">
+                        <label>Destination</label>
+                        <input type="text" name="destination" placeholder="City, landmark, or property">
+                    </div>
+
+                    <div class="form-group">
+                        <label>Check-in</label>
+                        <input type="date" name="checkin">
+                    </div>
+
+                    <div class="form-group">
+                        <label>Check-out</label>
+                        <input type="date" name="checkout">
+                    </div>
+
+                    <div class="form-group">
+                        <label>Guests & Rooms</label>
+                        <select name="guests">
+                            <option>1 Adult | 1 Room</option>
+                            <option>2 Adults | 1 Room</option>
+                            <option>2 Adults | 2 Rooms</option>
+                        </select>
+                    </div>
+
+                    <button type="submit" class="search-btn">Search Hotels</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <section class="featured-hotels">
+        <h2 class="section-title">Featured Global Properties</h2>
+        <div class="hotel-list">
+            <div class="hotel-card">
+                <img src="hotel1.jpg" alt="Luxury Suite">
+                <div class="card-content">
+                    <h3>Skyline Plaza Hotel</h3>
+                    <p>5-star luxury in the heart of downtown with panoramic city views</p>
+                    <a href="#" class="book-btn">Book Now</a>
+                </div>
+            </div>
+            <div class="hotel-card">
+                <img src="hotel2.jpg" alt="Beach Resort">
+                <div class="card-content">
+                    <h3>Azure Beach Resort</h3>
+                    <p>Private beach access with premium oceanfront accommodations</p>
+                    <a href="#" class="book-btn">Book Now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        © 2025 BudgetHotelsDot.com | All Rights Reserved
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
